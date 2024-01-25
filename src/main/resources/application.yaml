@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active: dev
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_vendor?useSSL=false
+    username: root
+    password: aggarwal204
+ 
+   
+#JPA Settings
+  jpa:
+    hibernate:
+      ddl-auto: update
+      
